@@ -1,5 +1,5 @@
 assembly-versioning-scheme: MajorMinorPatch
-mode: ContinuousDelivery
+mode: ContinuousDeployment
 tag-prefix: '[vV]'
 continuous-delivery-fallback-tag: ci
 major-version-bump-message: '\+semver:\s?(breaking|major)'
@@ -13,7 +13,7 @@ branches:
   master:
     regex: main
     mode: ContinuousDeployment
-    tag: ''
+    tag: 'tag'
     increment: Patch
     prevent-increment-of-merged-branch-version: true
     track-merge-target: false
