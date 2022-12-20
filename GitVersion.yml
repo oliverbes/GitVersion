@@ -10,10 +10,9 @@ build-metadata-padding: 4
 commits-since-version-source-padding: 4
 commit-message-incrementing: Enabled
 branches:
-  master:
+  main:
     regex: main
     mode: ContinuousDeployment
-    tag: 'tag'
     increment: Patch
     prevent-increment-of-merged-branch-version: true
     track-merge-target: false
