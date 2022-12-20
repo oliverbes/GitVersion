@@ -1,1 +1,2 @@
 # GitVersion
+merge
