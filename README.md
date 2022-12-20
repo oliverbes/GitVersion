@@ -1,2 +1,3 @@
 # GitVersion
 merge
+go
