@@ -26,5 +26,7 @@ jobs:
     - name: Create git tag
       run: |
         git tag $GITVERSION_MAJORMINORPATCH
+      if: github.ref == 'refs/heads/main'
     - name: Push git tag
       run: git push origin $GITVERSION_MAJORMINORPATCH
+      if: github.ref == 'refs/heads/main'
