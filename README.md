@@ -1,2 +1,2 @@
 # GitVersion
-Release
+tag
