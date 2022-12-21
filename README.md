@@ -1,3 +1,2 @@
 # GitVersion
-merge
-go
+
