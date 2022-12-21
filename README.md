@@ -1,2 +1,2 @@
 # GitVersion
-tag
+patch
