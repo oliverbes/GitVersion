@@ -23,3 +23,8 @@ jobs:
     - name: Display SemVer
       run: |
         echo "SemVer: $GITVERSION_SEMVER NugetVersion: $GITVERSION_NUGETVERSION"
+    - name: Create git tag
+      run: |
+        git tag $GITVERSION_SEMVER
+    - name: Push git tag
+      run: git push origin $GITVERSION_SEMVER
