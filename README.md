@@ -1,2 +1,2 @@
 # GitVersion
-patch
+patch/branch
